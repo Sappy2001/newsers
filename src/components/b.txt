@@ -1,0 +1,11 @@
+ <Route path="/business"><News country="in" category="general" /></Route>
+ <Route path="/entertainment"><News country="in" </Route>category="general" /></Route>
+ <Route path="/general"><News country="in" </Route>category="general" /></Route>
+ <Route path="/health"><News country="in" </Route>category="general" /></Route>
+ <Route path="/science"><News country="in" </Route>category="general" /></Route>
+ <Route path="/sports"><News country="in" </Route>category="general" /></Route>
+ <Route path="/technology"><News country="in" </Route>category="general" /></Route>
+
+ <Route path="/"><News country="in" category="general" />
+            <About />
+          </Route>
