@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
 import LoadingBar from "react-top-loading-bar";
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 
 import { Router, Route, Switch } from "react-router-dom";
 export default class App extends Component {
@@ -18,7 +18,7 @@ export default class App extends Component {
 	render() {
 		return (
 			<>
-				<BrowserRouter basename="/newsers">
+				<HashRouter basename="/newsers">
 					<Navbar />
 					<LoadingBar
 						height={3}
@@ -91,7 +91,7 @@ export default class App extends Component {
 							/>
 						</Route>
 					</Switch>
-				</BrowserRouter>
+				</HashRouter>
 			</>
 		);
 	}
