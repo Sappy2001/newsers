@@ -18,7 +18,7 @@ export default class App extends Component {
 	render() {
 		return (
 			<>
-				<BrowserRouter basename="/newsers">
+				<BrowserRouter basename="/">
 					<Navbar />
 					<LoadingBar
 						height={3}
