@@ -18,7 +18,7 @@ export default class App extends Component {
 	render() {
 		return (
 			<>
-				<BrowserRouter basename="/">
+				<BrowserRouter basename="/newsers">
 					<Navbar />
 					<LoadingBar
 						height={3}
@@ -26,7 +26,7 @@ export default class App extends Component {
 						progress={this.state.progress}
 					/>
 					<Switch>
-						<Route exact path="/">
+						<Route exact path="/newsers">
 							<News
 								setProgress={this.setProgress}
 								key="general"
