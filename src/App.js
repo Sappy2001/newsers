@@ -14,11 +14,11 @@ export default class App extends Component {
 	setProgress = (progress) => {
 		this.setState({ progress: progress });
 	};
-	apiKey = process.env.REACT_APP_NEWS_API;
+	apiKey = "3020a63409404e1a8ab3586ee41661ba";
 	render() {
 		return (
 			<>
-				<HashRouter basename="/newsers">
+				<HashRouter>
 					<Navbar />
 					<LoadingBar
 						height={3}
