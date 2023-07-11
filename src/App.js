@@ -26,7 +26,7 @@ export default class App extends Component {
 						progress={this.state.progress}
 					/>
 					<Switch>
-						<Route exact path="/newsers">
+						<Route exact path="/">
 							<News
 								setProgress={this.setProgress}
 								key="general"
